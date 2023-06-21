@@ -41,4 +41,4 @@ for i in range(2,len(results),3):
 
 dataframe=pd.DataFrame.from_dict(data)
 dataframe.index=dataframe.index+1
-dataframe.to_csv("SamsungUnder15k.csv")
+dataframe.to_csv("SamsungUnder5k.csv")
